@@ -1,0 +1,36 @@
+<div class=" pt-5">
+  <div class="mx-auto">
+    <div class="card-header">
+      <h3>Update Blog</h3>
+    </div>
+    <div class="card-body">
+      <form [formGroup]="updateBlog" (ngSubmit)="editBlog()">
+        <div class="mb-3">
+          <label class="form-label">Title</label>
+          <input type="text" class="form-control" placeholder="Enter Title" formControlName="title">
+          <div *ngIf="updateBlog.get('title').touched && updateBlog.get('title').hasError('required')" class="alert alert-danger">This field is required.</div>
+        </div>
+        <div class="mb-3">
+          <label class="form-label">Category</label>
+          <input type="text" class="form-control" placeholder="Enter Category" formControlName="category">
+        </div>
+        <div class="mb-3">
+          <label class="form-label">Description</label>
+          <input type="text" class="form-control" placeholder="Enter Description" formControlName="description">
+          <div *ngIf="updateBlog.get('description').touched && updateBlog.get('description').hasError('required')" class="alert alert-danger">This field is required.</div>
+        </div>
+        <div class="mb-3">
+          <label class="form-label">Author</label>
+          <input type="text" class="form-control" placeholder="Enter Author" formControlName="author">
+          <div *ngIf="updateBlog.get('author').touched && updateBlog.get('author').hasError('required')" class="alert alert-danger">This field is required.</div>
+        </div>
+        <div class="mb-3">
+          <label class="form-label">DatePublished</label>
+          <input type="date" class="form-control" placeholder="Enter DatePublished" formControlName="datepublished">
+          <div *ngIf="updateBlog.get('datepublished').touched && updateBlog.get('datepublished').hasError('required')" class="alert alert-danger">This field is required.</div>
+        </div>
+        <button type="submit" class="btn btn-primary float-right mb-3" [disabled]="!updateBlog.valid">Update</button>
+      </form>
+    </div>
+  </div>
+</div>

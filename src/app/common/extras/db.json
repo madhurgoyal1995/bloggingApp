@@ -1,0 +1,48 @@
+{
+  "blogs": [
+    {
+      "title": "Greatist",
+      "category": "Health & Fitness",
+      "description": "A health and fitness blog backed by science.  Greatist is a blog that I’ve followed deeply over the years. Their focus on creating only the highest quality, science-backed health and fitness articles for millennials has paid off greatly.  On the surface, they’re a regular health and fitness blog. Behind the scenes, they’re a full-blown media startup with over 10 million visitors per month and an estimated yearly revenue in the 8-figure range. They make this money through ads and by selling sponsored content.  What they do well: Creating reputable, trust-worthy health content backed by science. This is hard to come by in an industry full of misinformation.",
+      "author": "blogger",
+      "datepublished": "2021-02-02",
+      "id": 8
+    },
+    {
+      "title": "A Travel blog",
+      "category": "Travel",
+      "description": "A travel blog with strong personal branding.  There are a ton of travel blogs on the internet. Most are personal blogs. They write about their travels and build up a small audience over time. Nomadic Matt also started as a personal blog about his own travels.  Today, he’s built up a HUGE resource with everything you need to know about travelling. What’s crazy is that it’s still a personal blog with only one main author. Even to this day, he writes most of the content himself.",
+      "author": "blogger",
+      "datepublished": "2021-02-19",
+      "id": 11
+    },
+    {
+      "title": "A new ray of hope :)",
+      "category": "General",
+      "description": "Never lose hope..",
+      "author": "blogger",
+      "datepublished": "2021-02-25",
+      "id": 13
+    },
+    {
+      "title": "New Blog",
+      "category": "General",
+      "description": "Demo blog data",
+      "author": "blogger",
+      "datepublished": "2021-02-25",
+      "id": 14
+    }
+  ],
+  "users": [
+    {
+      "email": "blogger@grapecity.com",
+      "password": "1qaz!QAZ",
+      "id": 11
+    },
+    {
+      "email": "madhurgoyal.1912@gmail.com",
+      "password": "abcvvdvdv",
+      "id": 12
+    }
+  ]
+}
